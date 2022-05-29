@@ -1,0 +1,1010 @@
+/* MEDIA QUERIES FOR MOBILE */
+
+@media (max-width:592px) {
+   .grid--3-cols {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.vl {
+  height: 50px;
+}
+ 
+/* 1 header  */
+ .header-1{
+   padding-left: 32px;
+   font-size: 28px;
+
+ }
+ 
+.header-2,.header-3,.header-4,.header-5{
+  display:none;
+}
+.right-side-headers {
+  flex: none;
+ 
+  padding-right: 32px;
+}
+.header-icon{
+  display: none;
+}
+.header-icon2{
+  display: block;
+}
+
+/* 2 Hero section */
+
+.section2{
+  padding-bottom: 48px;
+  padding-top: 16px;
+}
+.hero-form {
+  display: block;
+  margin: auto;
+  padding: auto;
+  width: 75%;
+  height: 50%;
+
+}
+.hero-heading{
+  display: block;
+  margin: auto;
+  padding: auto;
+  width: 75%;
+}
+.primary-heading-1{
+  font-size: 32px;
+  padding-top: 48px;
+}
+.hero-form-heading {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.hero-form-text{
+  font-size: 12px;
+}
+.btn-1{
+  width: 160px;
+  height: 60px;
+  font-size: 12px;
+  margin-bottom: 48px;
+}
+.hero-text{
+  font-size:12px ;
+}
+.hero-form-heading{
+  margin-top: none;
+}
+/* 3 services */
+ 
+.primary-heading-2{
+  font-size: 32px;
+  text-align: center;
+}
+.service-icon{
+  text-align: center;
+  width: fit-content;
+  
+}
+.services-heading{
+  font-size: 16px;
+  text-align: center;
+}
+.services-text{
+  font-size: 12px;
+  text-align: center;
+  
+}
+.services{
+  padding-bottom: 32px;
+}
+
+/*5 Design */
+.about-us{
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.primary-heading-4{
+  font-size: 32px;
+  text-align: center;
+}
+.secondary-heading-1{
+  font-size: 12px;
+  text-align: center;
+}
+
+.ab{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+/*6 Testimonials */
+
+.testimonial-heading{
+  font-size: 32px;
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 16px;
+}
+.testimonial-name {
+  font-size: 12px;
+}
+/*7 Latest News Section */
+
+.primary-heading-5 {
+  font-size:24px;
+  text-align: center;
+ 
+}
+.latest-news-text {
+  font-size: 12px;
+  text-align: center;
+  
+}
+
+/*8 News section */
+.img-sz{
+  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+ .news-section-2{
+  padding-bottom: 16px;
+  padding-top: 16px;
+  
+  
+ }
+ .news-section-3{
+   padding-top: 16px;
+
+ }
+ /* .news-section-1{
+   align-items: center;
+   justify-content: center;
+ } */
+ .secondary-heading-news{
+   font-size: 16px;
+ }
+
+ .news-name{
+   font-size: 12px;
+ }
+ .news-text{
+   font-size:12px;
+ }
+ .news-link > a:link,
+.news-link > a:visited {
+  font-size: 12px;
+}
+
+
+
+/*9 getting started */
+.getting-heading {
+  font-size: 28px;
+  text-align: center;
+}
+.getting-subheading {
+  font-size: 16px;
+}
+.btn-4 {
+  width: 100px;
+  height: 35px;
+  font-size: 10px;
+  
+}
+.getting-started-section {
+  background-size: cover;
+}
+
+/* 10 our team section */
+
+.our-team{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.our-team-heading{
+ font-size: 32px;
+ text-align: center;
+ font-weight: 700;
+}
+
+.our-team-text{
+  font-size:14px;
+  text-align: center;
+
+}
+.member-name{
+font-size: 16px;
+}
+.member-post{
+ font-size: 12px;
+}
+.m-1,
+.m-2,
+.m-3 {
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  
+}
+.member-1{
+
+  padding-left: 0px;
+}  
+
+/*11 let's talk */
+.lets-talk-heading{
+ font-size: 42px;
+ text-align: center;
+ 
+}
+.lets-talk-body{
+  padding-left: 0;
+ padding-right: 32px;
+}
+.lets-talk-text{
+  text-align: left;
+  font-size: 12px;
+}
+.lets-talk-subheading{
+  text-align: left;
+  
+
+}
+.lets-talk-logos{
+justify-content: left;
+gap: 10px;
+}
+.lets-talk-form{
+  
+padding-left: 32px;
+padding-right: 24px;
+
+}
+.name-email{
+  flex: none;
+  display: inline;
+}
+.name {
+  width: 92%;
+  height: 60px;
+}
+.email {
+  width: 92%;
+  height: 60px;
+ 
+}
+
+.subject {
+  width: 92%;
+  height: 60px;
+  
+}
+
+.message {
+  width: 92%;
+  
+}
+/* 12 footer */
+ .grid--2-cols {
+   display: contents;
+}
+.footer-1{
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+.shortcuts{
+  display:flex;
+  font-size: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+}
+
+/* ******************************************************************** */
+
+
+
+/* MEDIA QUERIES FOR TABLET*/
+@media (max-width:768px)  and (min-width:593px){
+
+
+
+.grid--3-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* 1 header  */
+ .header-1{
+   padding-left: 32px;
+
+ }
+ 
+.header-2,.header-3,.header-4,.header-5{
+  display:none;
+}
+.right-side-headers {
+  flex: none;
+ 
+  padding-right: 32px;
+}
+.header-icon{
+  display: none;
+}
+.header-icon2{
+  display: block;
+}
+
+/* 2 Hero section */
+.section2 {
+ padding-bottom: 72px;
+ padding-top: 24px;
+}
+
+.hero-form {
+  display: block;
+  margin: auto;
+  padding: auto;
+  width: 65%;
+  height: 50%;
+
+}
+.hero-heading{
+  display: block;
+  margin: auto;
+  padding: auto;
+  width: 65%;
+}
+.hero-text{
+  font-size: 13px;
+}
+.primary-heading-1{
+  font-size: 42px;
+  padding-top: 48px;
+}
+.hero-form-heading {
+  font-size: 22px;
+  margin-top: 20px;
+}
+.hero-form-text{
+  font-size: 14px;
+}
+.btn-1{
+  width: 150px;
+  height: 50px;
+  font-size: 12px;
+  margin-bottom: 48px;
+}
+
+  /* 3 services  */
+.primary-heading-2{
+  font-size: 42px;
+  text-align: center;
+}
+.services-heading{
+    text-align: center;
+  }
+
+.primary-heading{
+  font-size: 42px;
+  text-align: center;
+}
+.service-icon{
+  text-align: center;
+  width: fit-content;
+  
+}
+.services-heading{
+  font-size: 20px;
+  text-align: center;
+}
+.services-text{
+  font-size: 14px;
+  text-align: center;
+}
+.services{
+  padding-bottom: 32px;
+}
+
+/*5 Design */
+.about-us{
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.primary-heading-4{
+  font-size: 42px;
+  text-align: center;
+}
+.secondary-heading-1{
+  font-size: 14px;
+  text-align: center;
+}
+.ab{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.bike-design{
+  grid-row:2;
+  grid-column: 1 / span 2;
+}
+
+.ab3{
+  height: 292px;
+  width: 376px;
+}
+
+  /*6 Testimonials */
+
+  .testimonial-heading{
+  font-size: 42px;
+  text-align: center;
+}
+.testimonil-text {
+  font-size: 20px;
+}
+.testimonial-name {
+  font-size: 12px;
+}
+
+/*7 Latest News Section */
+
+.primary-heading-5 {
+  font-size:32px;
+ 
+}
+.latest-news-text {
+  font-size: 14px;
+  
+}
+/* 8 news section */
+.img-sz{
+  text-align: center;
+  background-size: cover;
+
+
+}
+ .news-section-2{
+  padding-bottom: 16px;
+  text-align: center;
+ }
+
+ .news-section-3{
+   padding-top: 32px;
+   text-align: center;
+  grid-row: 2;
+  grid-column: 1 / span 2;
+
+ }
+ .secondary-heading-news{
+   font-size: 20px;
+ }
+
+ .news-name{
+   font-size: 14px;
+ }
+ .news-text{
+   font-size:14px;
+ }
+ 
+ 
+
+
+
+/* 9 getting started */
+.getting-heading {
+  font-size: 36px;
+  text-align: center;
+}
+.getting-subheading {
+  font-size: 20px;
+}
+.btn-4 {
+  width: 130px;
+  height: 55px;
+  font-size: 12px;
+  
+}
+
+.getting-started-section {
+  background-size: cover;
+}
+
+/* 10 our team section */
+
+.member-3{
+  grid-row: 2;
+  grid-column: 1 / span 2;
+}
+
+.our-team{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.our-team-heading{
+ font-size: 42px;
+ text-align: center;
+ font-weight: 700;
+}
+
+.our-team-text{
+  font-size:16px;
+  text-align: center;
+
+}
+.member-name{
+font-size: 20px;
+}
+.member-post{
+ font-size: 14px;
+}
+.m-1,
+.m-2,
+.m-3 {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  
+}
+
+.member-1{
+
+  padding-left: 0px;
+}  
+
+/*11 let's talk */
+.lets-talk-heading{
+ font-size: 42px;
+ text-align: center;
+ 
+}
+.lets-talk-body{
+  margin: 0;
+  padding: 0;
+}
+.lets-talk-text{
+  text-align: center;
+  font-size: 12px;
+}
+.lets-talk-subheading{
+  text-align: center;
+}
+.lets-talk-logos{
+justify-content: center;
+gap: 10px;
+}
+.lets-talk-form{
+  
+padding-left: 108px;
+padding-right: 48px;
+
+}
+.name {
+  width: 45%;
+  height: 60px;
+  font-size: 12px;
+}
+.email {
+  width: 45%;
+  height: 60px;
+  font-size: 12px;
+ 
+}
+
+.subject {
+  width: 95%;
+  height: 60px;
+  font-size: 12px;
+  
+}
+
+.message {
+  width: 95%;
+  font-size: 12px;
+}
+
+
+/*12 footer */
+.grid--2-cols {
+   display: contents;
+}
+.footer-1{
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+.shortcuts{
+  display:flex;
+  font-size: 14px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+ 
+}
+/* ************************************************************* */
+
+
+/* MEDIA QUERIES FOR LAPTOP */
+@media (max-width:1024px) and (min-width:769px){
+  .grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* 1 header  */
+ .header-1{
+   padding-left: 32px;
+
+ }
+ .right-side-headers {
+  gap: 15px;
+  padding-right: 32px;
+}
+.header-icon2{
+ 
+  display:none;
+}
+
+/* 2 hero form */
+.hero-form{
+  padding-left: 32px;
+}
+.hero-form-text{
+  font-size: 12px;
+}
+
+.nm,.em,.web{
+   width: 90%;
+   height: 35px;
+}
+/* 3 services */
+.primary-heading-2{
+  font-size: 48px;
+  text-align: center;
+  line-height: 5px;
+}
+
+.service-icon{
+  text-align: center;
+  width: fit-content;
+  
+}
+.services-heading{
+  font-size: 34px;
+  text-align: center;
+}
+.services-text{
+  font-size: 16px;
+  text-align: center;
+}
+.services{
+  padding-bottom: 32px;
+}
+
+/*5 Design */
+.about-us{
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.primary-heading-4{
+  font-size: 48px;
+  text-align: center;
+}
+.ab{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+/*6 Testimonials */
+.testimonial-heading{
+  font-size: 48px;
+  text-align: center;
+}
+.testimonial-text {
+  font-size: 24px;
+}
+.testimonial-name {
+  font-size: 16px;
+}
+/*8 news */
+
+.img-sz{
+  text-align: center;
+
+}
+.news-section-2{
+  padding-left: 12px;
+  
+ }
+ .news-section-3{
+   padding-left: 12px;
+ }
+ 
+ .news-sectio-3{
+   padding-top: 32px;
+   text-align: center;
+
+ }
+ .secondary-heading-news{
+   font-size: 24px;
+ }
+
+ .news-name{
+   font-size: 16px;
+ }
+ .news-text{
+   font-size:16px;
+ }
+ .news-link > a:link,
+.news-link > a:visited {
+  font-size: 16px;
+  padding-bottom: 24px;
+}
+/* 9 getting started */
+.getting-heading {
+  font-size: 42px;
+  text-align: center;
+}
+.getting-subheading {
+  font-size: 22px;
+}
+.btn-4 {
+  width: 150px;
+  height: 55px;
+  font-size: 12px;
+  
+}
+.img-sz{
+  width: 320px;
+}
+/* 10 our team section */
+.our-team{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.our-team-heading{
+ font-size: 48px;
+ text-align: center;
+ font-weight: 700;
+}
+
+.our-team-text{
+  font-size:16px;
+  text-align: center;
+
+}
+.member-name{
+font-size: 24px;
+}
+.member-post{
+ font-size: 16px;
+}
+.m-1,
+.m-2,
+.m-3 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  
+}
+.member-1{
+
+  padding-left: 0px;
+}  
+/* .section9{
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+/*11 let's talk */
+
+
+/*12 footer */
+.grid--2-cols {
+   display: grid;
+}
+.footer-1{
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+.shortcuts{
+  font-size: 16px;
+  padding-right: 48px;
+  padding-left: 48px;
+}
+}
+
+/* ************************************************************* */
+
+/* MEDIA QUERIES ABOVE 1024 PX */
+@media (min-width:1024px){
+  .grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* 1 header  */
+ .header-1{
+   padding-left: 32px;
+
+ }
+ .right-side-headers {
+  gap: 15px;
+  padding-right: 32px;
+}
+.header-icon2{
+
+  display: none;
+}
+  /*3 services */
+.primary-heading-2{
+  font-size: 48px;
+  text-align: center;
+}
+.service-icon{
+  text-align: center;
+  width: fit-content;
+  
+}
+.services-heading{
+  font-size: 24px;
+  text-align: center;
+}
+.services-text{
+  font-size: 16px;
+  text-align: center;
+}
+.services{
+  padding-bottom: 32px;
+}
+
+
+
+/*5 Design */
+.about-us{
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+
+}
+.primary-heading-4{
+  font-size: 48px;
+  text-align: center;
+}
+.ab{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+/*6 Testimonials */
+.testimonial-heading {
+  font-size: 42px;
+  
+}
+.testimonial-text {
+  font-size: 24px;
+}
+.testimonial-name {
+  font-size: 16px;
+}
+
+/* 8 news */
+.img-sz{
+  text-align: center;
+  background-size: cover;
+
+
+}
+.news-section-2{
+  padding-bottom: 16px;
+  
+ }
+ .news-section{
+   background-size: auto;
+   background-repeat: no-repeat;
+  
+ }
+ .news-sectio-3{
+   padding-top: 32px;
+   text-align: center;
+
+ }
+ .secondary-heading-news{
+   font-size: 26px;
+ }
+
+ .news-name{
+   font-size: 16px;
+ }
+ .news-text{
+   font-size:16px;
+ }
+ .news-link > a:link,
+.news-link > a:visited {
+  font-size: 16px;
+  padding-bottom: 24px;
+}
+/* 9 getting started */
+.getting-heading {
+  font-size: 48px;
+  text-align: center;
+}
+.getting-subheading {
+  font-size: 24px;
+}
+.btn-4 {
+  width: 200px;
+  height: 70px;
+  font-size: 14px;
+  
+}
+.getting-started-section {
+  background-size: cover;
+}
+
+/* 10 our team section */
+.m-1,
+.m-2,
+.m-3 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  
+}
+.member-1{
+
+  padding-left: 0px;
+}  
+ 
+/* 12 footer */
+
+
+.footer-1{
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+.shortcuts{
+  font-size: 16px;
+  padding-right: 48px;
+  padding-left: 48px;
+}
+}
