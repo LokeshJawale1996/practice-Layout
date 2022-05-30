@@ -1,0 +1,280 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-section {
+  @apply container mx-auto px-6 py-24 xl:w-5/6 2xl:w-4/5;
+}
+
+.primary-heading {
+  @apply pt-5 mb-8 text-4xl text-slate-700 break-words font-bold  xl:text-5xl 2xl:text-5xl;
+}
+
+.secondary-heading-left {
+  @apply text-3xl text-left font-bold break-words text-slate-700  md:text-4xl lg:text-4xl lg:text-left xl:text-5xl pb-9;
+}
+.secondary-heading-center {
+  @apply text-3xl text-center font-bold break-words text-slate-700  md:text-4xl lg:text-4xl lg:text-center xl:text-5xl pb-9;
+}
+
+/* section 1- header & hero section */
+.header-navs {
+  @apply text-slate-700 hover:text-amber-600;
+}
+.hero-text {
+  @apply mb-10 font-medium text-sm leading-7 text-slate-600 md:text-base lg:text-lg xl:text-xl 2xl:text-2xl;
+}
+
+.hero-btn-1 {
+  @apply bg-amber-500 text-white p-4 mr-2 rounded-md hover:bg-amber-700 transition duration-500 sm:px-6 sm:py-3 lg:px-10 lg:rounded-xl lg:text-lg xl:text-xl;
+}
+.hero-btn-2 {
+  @apply bg-white p-4 rounded-md hover:bg-light-orange border-2 border-white transition duration-500 sm:px-6 sm:py-3 lg:px-10 lg:rounded-xl lg:text-lg xl:text-xl;
+}
+
+.customersImg {
+  @apply w-8 md:w-10 rounded-full -mr-2; /** w-9 h-9 rounded-full border-2 border-white lg:w-11 lg:h-11 xl:w-12 xl:h-12; */
+}
+/* ********************************************************************************* */
+/* ********************************************************************************* */
+/* section-2 Featured*/
+
+.logos {
+  @apply h-3 mt-4 flex justify-around sm:gap-3;
+}
+
+.img-fe {
+  @apply opacity-50 brightness-0 w-1/6 h-4 md:h-6 lg:h-8 xl:h-10;
+}
+
+/* ********************************************************************************* */
+/* ********************************************************************************* */
+
+/* section-3 How It Works */
+.orange-how {
+  @apply text-orange-500 font-bold text-sm tracking-wider uppercase lg:text-base xl:text-lg;
+}
+
+.how-1 {
+  @apply mt-8  sm:flex flex-row-reverse gap-12 xl:mt-16;
+}
+
+.how-2 {
+  @apply my-8 sm:flex gap-12 my-14 xl:mt-16;
+}
+
+.how-3 {
+  @apply my-8 sm:flex flex-row-reverse gap-12 xl:mt-16;
+}
+/* part 1-img */
+.how-img-div {
+  @apply w-1/2 relative mx-auto flex items-center justify-center md:w-2/5 xl:w-1/3;
+}
+.how-img {
+  @apply w-1/2  mx-auto;
+}
+.light-shadow-ring {
+  @apply absolute  w-5/6 h-5/6 rounded-full bg-orange-50 -z-10;
+}
+.dark-shadow-ring {
+  @apply absolute w-4/6 h-4/6 rounded-full bg-orange-100 -z-10;
+}
+/* part-2 text */
+.how-box {
+  @apply my-8  sm:w-1/2 xl:pr-16;
+}
+.how-number {
+  @apply text-6xl font-semibold text-slate-300 lg:text-7xl;
+}
+.how-text-heading {
+  @apply mt-2.5 text-xl text-slate-700 font-bold lg:text-2xl;
+}
+.how-text {
+  @apply mt-5 leading-8 text-sm  text-slate-700 lg:text-lg 2xl:leading-9	2xl:text-xl;
+}
+/* ********************************************************************************* */
+/* ********************************************************************************* */
+
+/* section-4 Meals */
+
+.menu-property {
+  @apply flex gap-2 mb-5 text-sm text-slate-600 md:text-base;
+}
+.menu-property-icon {
+  @apply h-5 w-5 text-orange-400;
+}
+
+.meal-name {
+  @apply text-xl text-slate-600 font-bold mb-6 mt-2 xl:text-xl 2xl:text-2xl;
+}
+
+.meal-speciality {
+  @apply text-sm md:text-base text-slate-600 lg:text-slate-700 font-normal xl:text-xl  2xl:text-2xl;
+}
+.diet-list {
+  @apply flex gap-3 mb-3 lg:mb-5 xl:mb-5 2xl:mb-5 lg:text-slate-700 xl:text-xl 2xl:text-2xl;
+}
+.diet-click {
+  @apply h-6 w-6 text-orange-400 lg:text-orange-600;
+}
+/* ********************************************************************************* */
+/* ********************************************************************************* */
+
+/* section-5 -Testimonials */
+.testi-orange {
+  @apply text-orange-500 font-bold text-sm tracking-wider uppercase lg:text-base xl:text-lg;
+}
+
+.testimonial-img {
+  @apply w-12 sm:w-14 rounded-full mx-2 my-2 lg:mx-0 bg-cover bg-center;
+}
+
+.testimonial-text {
+  @apply text-sm text-slate-700  break-words py-4 tracking-wide md:text-base sm:w-3/4 lg:text-lg xl:text-xl;
+}
+
+.testimonial-name {
+  @apply text-xs text-slate-400 lg:text-sm;
+}
+.gallery-item {
+  @apply overflow-hidden;
+}
+
+.gallery-img {
+  @apply hover:scale-110 transition-all duration-300 lg:w-auto lg:h-auto bg-cover bg-center;
+}
+
+/* ********************************************************************************* */
+/* ********************************************************************************* */
+
+/* Section-6 pricing */
+
+.pricing-h {
+  @apply text-orange-500 font-bold text-sm tracking-wider uppercase lg:text-base xl:text-lg;
+}
+
+/* ************ */
+.price-p {
+  @apply rounded-xl;
+}
+
+.plan {
+  @apply text-orange-600 text-base uppercase mb-6 tracking-wider font-extrabold text-center opacity-80 lg:text-lg xl:text-xl;
+}
+
+.p-price {
+  @apply text-5xl	pb-3 font-bold text-slate-800 text-center lg:text-6xl  2xl:text-7xl md:pb-4 lg:pb-6 xl:pb-7 2xl:pb-8;
+}
+
+.p-text {
+  @apply text-xs leading-6 text-slate-800 text-center md:text-sm break-words  md:text-center lg:text-base xl:text-lg mx-auto;
+}
+
+.sign-up-btn {
+  @apply text-center mt-10;
+}
+
+.btn,
+.btn:link,
+.link:visited {
+  @apply inline-block no-underline text-base text-center font-semibold  py-4 rounded-lg border-0
+  cursor-pointer transition-all w-36 h-14 md:w-40 lg:w-48 lg:h-12 text-center lg:pt-3;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  @apply bg-orange-500 text-white;
+}
+
+.btn-full:hover,
+.btn-full:active {
+  @apply bg-orange-700;
+}
+.list {
+  @apply flex flex-col gap-6 list-none;
+}
+
+.list-item {
+  @apply flex items-center text-slate-700 text-sm gap-4 leading-5 lg:text-base w-1/2 text-left sm:w-1/2 md:w-3/4 mx-auto;
+}
+
+.list-icon {
+  @apply text-orange-500 w-6 h-6;
+}
+.price-p-start {
+  @apply px-8 py-8 border-2 border-orange-300 rounded-lg sm:w-80 mt-8  lg:w-auto lg:px-16 lg:py-12;
+}
+
+.price-p-comp {
+  @apply px-8 py-8 border-2 border-orange-50  rounded-lg bg-orange-50 sm:w-80 mt-8 lg:w-auto  relative overflow-hidden lg:px-16
+  lg:py-12;
+}
+
+/* ************ */
+.pricing-features {
+  @apply py-8 grid grid-cols-1 md:grid-cols-2 md:gap-8 lg:grid-cols-4 lg:gap-12 xl:gap-14;
+}
+
+.fe {
+  @apply flex flex-col gap-2 py-6 md:gap-3 lg:gap-4;
+}
+.fe-icon {
+  @apply text-orange-500 px-4 py-4 w-7 h-7 lg:mb-5 rounded-full bg-orange-100 opacity-50 md:px-6 md:py-6 lg:bg-orange-200;
+}
+
+.fe-title {
+  @apply text-xl break-normal pb-4 font-bold text-slate-700 lg:text-xl xl:text-2xl  2xl:text-2xl;
+}
+
+.fe-text {
+  @apply text-slate-600 break-words font-normal text-sm lg:text-slate-700 lg:text-base xl:text-xl  2xl:text-xl;
+}
+
+/* ********************************************************************************* */
+/* ********************************************************************************* */
+
+/* section-7 -cta */
+
+.cta {
+  @apply bg-orange-400 drop-shadow-xl rounded-xl sm:flex flex-row-reverse md:gap-5;
+}
+.cta-heading {
+  @apply text-3xl font-bold mb-4 text-gray-800 lg:text-4xl lg:mb-7 xl:text-5xl;
+}
+.cta-text {
+  @apply mb-4 text-sm leading-7 lg:text-lg xl:text-xl;
+}
+.form-cta {
+  @apply lg:grid lg:grid-cols-2 lg:gap-x-8;
+}
+.btn-form {
+  @apply w-full bg-yellow-900 text-white py-4 rounded-lg font-bold hover:bg-white hover:text-black transition duration-500 lg:py-2 lg:h-2/5 lg:mt-9 xl:h-1/2 xl:text-lg xl:py-1;
+}
+.form-inputt {
+  @apply border-2 text-sm border-orange-50 p-1 w-full rounded-lg bg-orange-50 lg:p-2  xl:text-base 2xl:text-lg;
+}
+.form-label {
+  @apply block text-sm font-semibold pb-1 lg:text-base lg:pb-2 xl:text-lg xl:pb-3 2xl:pb-4;
+}
+/* ********************************************************************************* */
+/* ********************************************************************************* */
+
+/*section-8 footer */
+
+.footers {
+  @apply text-slate-600 lg:text-slate-700 font-normal xl:text-xl  2xl:text-xl;
+}
+
+.footers-f {
+  @apply text-lg  pb-4 font-bold text-slate-700  lg:text-slate-800 xl:text-xl  2xl:text-2xl;
+}
+
+.foot-logo {
+  @apply w-24 h-3 mb-5 mt-2 md:w-28 md:h-4 lg:w-32 lg:h-4 xl:w-36 lg:h-5 2xl:w-40;
+}
+.social-sites {
+  @apply flex  gap-3 mb-4 opacity-60 md:gap-4 lg:gap-5;
+}
+.s-icon {
+  @apply w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6 xl:w-7 xl:h-7 2xl:h-8 2xl:w-8;
+}
